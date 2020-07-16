@@ -1,2 +1,2 @@
-#StoreVip mobile app
+# StoreVip mobile app
 Authors: Roman Lyskov, Andrew Shelyakin
