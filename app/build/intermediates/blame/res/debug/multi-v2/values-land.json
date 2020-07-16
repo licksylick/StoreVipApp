@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Roman Lyskov\\Desktop\\storeVip-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Roman Lyskov\\.gradle\\caches\\transforms-2\\files-2.1\\44050436f8b1fcc3e571a512049820fd\\appcompat-v7-27.1.1\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Roman Lyskov\\.gradle\\caches\\transforms-2\\files-2.1\\72b9dd4c00879bc3b68ea7b9808cae4d\\firebase-inappmessaging-display-17.0.4\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,131",
+                        "endColumns": "75,71",
+                        "endOffsets": "126,198"
+                    },
+                    "to": {
+                        "startLines": "6,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "328,404",
+                        "endColumns": "75,71",
+                        "endOffsets": "399,471"
+                    }
+                }
+            ]
+        }
+    ]
+}

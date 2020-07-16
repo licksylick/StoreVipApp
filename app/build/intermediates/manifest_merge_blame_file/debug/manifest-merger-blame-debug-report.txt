@@ -1,0 +1,229 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="tensor_programming.com.webview"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->C:\Users\Roman Lyskov\Desktop\storeVip-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->C:\Users\Roman Lyskov\Desktop\storeVip-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Roman Lyskov\Desktop\storeVip-master\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Roman Lyskov\Desktop\storeVip-master\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\Roman Lyskov\Desktop\storeVip-master\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\Roman Lyskov\Desktop\storeVip-master\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->C:\Users\Roman Lyskov\Desktop\storeVip-master\app\src\main\AndroidManifest.xml:7:5-76
+13-->C:\Users\Roman Lyskov\Desktop\storeVip-master\app\src\main\AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\4dd4ff15809cc1124a693e6d84ec3c00\firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:24:5-68
+14-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\4dd4ff15809cc1124a693e6d84ec3c00\firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:24:22-65
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+15-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\67723f0607276858cbe88662cff27a37\firebase-analytics-16.0.4\AndroidManifest.xml:26:5-110
+15-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\67723f0607276858cbe88662cff27a37\firebase-analytics-16.0.4\AndroidManifest.xml:26:22-107
+16    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+16-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\5d16eb75cf7b340b899dd7106afa3eb2\firebase-iid-17.0.4\AndroidManifest.xml:26:5-82
+16-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\5d16eb75cf7b340b899dd7106afa3eb2\firebase-iid-17.0.4\AndroidManifest.xml:26:22-79
+17
+18    <application
+18-->C:\Users\Roman Lyskov\Desktop\storeVip-master\app\src\main\AndroidManifest.xml:9:5-24:19
+19        android:allowBackup="true"
+19-->C:\Users\Roman Lyskov\Desktop\storeVip-master\app\src\main\AndroidManifest.xml:10:9-35
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\Roman Lyskov\Desktop\storeVip-master\app\src\main\AndroidManifest.xml:11:9-43
+22        android:label="@string/app_name"
+22-->C:\Users\Roman Lyskov\Desktop\storeVip-master\app\src\main\AndroidManifest.xml:12:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\Roman Lyskov\Desktop\storeVip-master\app\src\main\AndroidManifest.xml:13:9-54
+24        android:supportsRtl="true"
+24-->C:\Users\Roman Lyskov\Desktop\storeVip-master\app\src\main\AndroidManifest.xml:14:9-35
+25        android:theme="@style/AppTheme" >
+25-->C:\Users\Roman Lyskov\Desktop\storeVip-master\app\src\main\AndroidManifest.xml:15:9-40
+26        <activity android:name="tensor_programming.com.webview.SplashScreenActivity" >
+26-->C:\Users\Roman Lyskov\Desktop\storeVip-master\app\src\main\AndroidManifest.xml:16:9-22:20
+26-->C:\Users\Roman Lyskov\Desktop\storeVip-master\app\src\main\AndroidManifest.xml:16:19-55
+27            <intent-filter>
+27-->C:\Users\Roman Lyskov\Desktop\storeVip-master\app\src\main\AndroidManifest.xml:17:13-21:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\Users\Roman Lyskov\Desktop\storeVip-master\app\src\main\AndroidManifest.xml:18:17-69
+28-->C:\Users\Roman Lyskov\Desktop\storeVip-master\app\src\main\AndroidManifest.xml:18:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Users\Roman Lyskov\Desktop\storeVip-master\app\src\main\AndroidManifest.xml:20:17-77
+30-->C:\Users\Roman Lyskov\Desktop\storeVip-master\app\src\main\AndroidManifest.xml:20:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity android:name="tensor_programming.com.webview.WebViewActivity" />
+33-->C:\Users\Roman Lyskov\Desktop\storeVip-master\app\src\main\AndroidManifest.xml:23:9-53
+33-->C:\Users\Roman Lyskov\Desktop\storeVip-master\app\src\main\AndroidManifest.xml:23:19-50
+34
+35        <service
+35-->[com.google.firebase:firebase-inappmessaging-display:17.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\72b9dd4c00879bc3b68ea7b9808cae4d\firebase-inappmessaging-display-17.0.4\AndroidManifest.xml:15:9-19:19
+36            android:name="com.google.firebase.components.ComponentDiscoveryService"
+36-->[com.google.firebase:firebase-inappmessaging-display:17.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\72b9dd4c00879bc3b68ea7b9808cae4d\firebase-inappmessaging-display-17.0.4\AndroidManifest.xml:15:18-89
+37            android:exported="false" >
+37-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\5d16eb75cf7b340b899dd7106afa3eb2\firebase-iid-17.0.4\AndroidManifest.xml:31:13-37
+38            <meta-data
+38-->[com.google.firebase:firebase-inappmessaging-display:17.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\72b9dd4c00879bc3b68ea7b9808cae4d\firebase-inappmessaging-display-17.0.4\AndroidManifest.xml:16:13-18:85
+39                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.display.FirebaseInAppMessagingDisplayRegistrar"
+39-->[com.google.firebase:firebase-inappmessaging-display:17.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\72b9dd4c00879bc3b68ea7b9808cae4d\firebase-inappmessaging-display-17.0.4\AndroidManifest.xml:17:17-144
+40                android:value="com.google.firebase.components.ComponentRegistrar" />
+40-->[com.google.firebase:firebase-inappmessaging-display:17.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\72b9dd4c00879bc3b68ea7b9808cae4d\firebase-inappmessaging-display-17.0.4\AndroidManifest.xml:18:17-82
+41            <meta-data
+41-->[com.google.firebase:firebase-inappmessaging:17.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\a65d1f8a2462aacfa41519c471f2687c\firebase-inappmessaging-17.0.4\AndroidManifest.xml:15:13-17:85
+42                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.FirebaseInAppMessagingRegistrar"
+42-->[com.google.firebase:firebase-inappmessaging:17.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\a65d1f8a2462aacfa41519c471f2687c\firebase-inappmessaging-17.0.4\AndroidManifest.xml:16:17-129
+43                android:value="com.google.firebase.components.ComponentRegistrar" />
+43-->[com.google.firebase:firebase-inappmessaging:17.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\a65d1f8a2462aacfa41519c471f2687c\firebase-inappmessaging-17.0.4\AndroidManifest.xml:17:17-82
+44            <meta-data
+44-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\4dd4ff15809cc1124a693e6d84ec3c00\firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:28:13-30:85
+45                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+45-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\4dd4ff15809cc1124a693e6d84ec3c00\firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:29:17-139
+46                android:value="com.google.firebase.components.ComponentRegistrar" />
+46-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\4dd4ff15809cc1124a693e6d84ec3c00\firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:30:17-82
+47            <meta-data
+47-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\5d16eb75cf7b340b899dd7106afa3eb2\firebase-iid-17.0.4\AndroidManifest.xml:32:13-34:85
+48                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+48-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\5d16eb75cf7b340b899dd7106afa3eb2\firebase-iid-17.0.4\AndroidManifest.xml:33:17-96
+49                android:value="com.google.firebase.components.ComponentRegistrar" />
+49-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\5d16eb75cf7b340b899dd7106afa3eb2\firebase-iid-17.0.4\AndroidManifest.xml:34:17-82
+50        </service>
+51        <!--
+52             FirebaseMessagingService performs security checks at runtime,
+53             no need for explicit permissions despite exported="true"
+54        -->
+55        <service
+55-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\669e634c1ffd50cc6d3617d422669916\firebase-messaging-17.3.4\AndroidManifest.xml:28:9-34:19
+56            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+56-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\669e634c1ffd50cc6d3617d422669916\firebase-messaging-17.3.4\AndroidManifest.xml:29:13-82
+57            android:exported="true" >
+57-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\669e634c1ffd50cc6d3617d422669916\firebase-messaging-17.3.4\AndroidManifest.xml:30:13-36
+58            <intent-filter android:priority="-500" >
+58-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\669e634c1ffd50cc6d3617d422669916\firebase-messaging-17.3.4\AndroidManifest.xml:31:13-33:29
+58-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\669e634c1ffd50cc6d3617d422669916\firebase-messaging-17.3.4\AndroidManifest.xml:31:28-51
+59                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+59-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\669e634c1ffd50cc6d3617d422669916\firebase-messaging-17.3.4\AndroidManifest.xml:32:17-78
+59-->[com.google.firebase:firebase-messaging:17.3.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\669e634c1ffd50cc6d3617d422669916\firebase-messaging-17.3.4\AndroidManifest.xml:32:25-75
+60            </intent-filter>
+61        </service>
+62
+63        <receiver
+63-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\67723f0607276858cbe88662cff27a37\firebase-analytics-16.0.4\AndroidManifest.xml:29:9-33:20
+64            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+64-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\67723f0607276858cbe88662cff27a37\firebase-analytics-16.0.4\AndroidManifest.xml:30:13-85
+65            android:enabled="true"
+65-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\67723f0607276858cbe88662cff27a37\firebase-analytics-16.0.4\AndroidManifest.xml:31:13-35
+66            android:exported="false" >
+66-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\67723f0607276858cbe88662cff27a37\firebase-analytics-16.0.4\AndroidManifest.xml:32:13-37
+67        </receiver>
+68        <receiver
+68-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\67723f0607276858cbe88662cff27a37\firebase-analytics-16.0.4\AndroidManifest.xml:34:9-42:20
+69            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+69-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\67723f0607276858cbe88662cff27a37\firebase-analytics-16.0.4\AndroidManifest.xml:35:13-100
+70            android:enabled="true"
+70-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\67723f0607276858cbe88662cff27a37\firebase-analytics-16.0.4\AndroidManifest.xml:36:13-35
+71            android:exported="true"
+71-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\67723f0607276858cbe88662cff27a37\firebase-analytics-16.0.4\AndroidManifest.xml:37:13-36
+72            android:permission="android.permission.INSTALL_PACKAGES" >
+72-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\67723f0607276858cbe88662cff27a37\firebase-analytics-16.0.4\AndroidManifest.xml:38:13-69
+73            <intent-filter>
+73-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\67723f0607276858cbe88662cff27a37\firebase-analytics-16.0.4\AndroidManifest.xml:39:13-41:29
+74                <action android:name="com.android.vending.INSTALL_REFERRER" />
+74-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\67723f0607276858cbe88662cff27a37\firebase-analytics-16.0.4\AndroidManifest.xml:40:17-79
+74-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\67723f0607276858cbe88662cff27a37\firebase-analytics-16.0.4\AndroidManifest.xml:40:25-76
+75            </intent-filter>
+76        </receiver>
+77
+78        <service
+78-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\67723f0607276858cbe88662cff27a37\firebase-analytics-16.0.4\AndroidManifest.xml:44:9-47:40
+79            android:name="com.google.android.gms.measurement.AppMeasurementService"
+79-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\67723f0607276858cbe88662cff27a37\firebase-analytics-16.0.4\AndroidManifest.xml:45:13-84
+80            android:enabled="true"
+80-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\67723f0607276858cbe88662cff27a37\firebase-analytics-16.0.4\AndroidManifest.xml:46:13-35
+81            android:exported="false" />
+81-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\67723f0607276858cbe88662cff27a37\firebase-analytics-16.0.4\AndroidManifest.xml:47:13-37
+82        <service
+82-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\67723f0607276858cbe88662cff27a37\firebase-analytics-16.0.4\AndroidManifest.xml:48:9-52:72
+83            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+83-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\67723f0607276858cbe88662cff27a37\firebase-analytics-16.0.4\AndroidManifest.xml:49:13-87
+84            android:enabled="true"
+84-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\67723f0607276858cbe88662cff27a37\firebase-analytics-16.0.4\AndroidManifest.xml:50:13-35
+85            android:exported="false"
+85-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\67723f0607276858cbe88662cff27a37\firebase-analytics-16.0.4\AndroidManifest.xml:51:13-37
+86            android:permission="android.permission.BIND_JOB_SERVICE" />
+86-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\67723f0607276858cbe88662cff27a37\firebase-analytics-16.0.4\AndroidManifest.xml:52:13-69
+87
+88        <receiver
+88-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\5d16eb75cf7b340b899dd7106afa3eb2\firebase-iid-17.0.4\AndroidManifest.xml:37:9-44:20
+89            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+89-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\5d16eb75cf7b340b899dd7106afa3eb2\firebase-iid-17.0.4\AndroidManifest.xml:38:13-78
+90            android:exported="true"
+90-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\5d16eb75cf7b340b899dd7106afa3eb2\firebase-iid-17.0.4\AndroidManifest.xml:39:13-36
+91            android:permission="com.google.android.c2dm.permission.SEND" >
+91-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\5d16eb75cf7b340b899dd7106afa3eb2\firebase-iid-17.0.4\AndroidManifest.xml:40:13-73
+92            <intent-filter>
+92-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\5d16eb75cf7b340b899dd7106afa3eb2\firebase-iid-17.0.4\AndroidManifest.xml:41:13-43:29
+93                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+93-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\5d16eb75cf7b340b899dd7106afa3eb2\firebase-iid-17.0.4\AndroidManifest.xml:42:17-81
+93-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\5d16eb75cf7b340b899dd7106afa3eb2\firebase-iid-17.0.4\AndroidManifest.xml:42:25-78
+94            </intent-filter>
+95        </receiver>
+96        <!--
+97             FirebaseInstanceIdService performs security checks at runtime,
+98             no need for explicit permissions despite exported="true"
+99        -->
+100        <service
+100-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\5d16eb75cf7b340b899dd7106afa3eb2\firebase-iid-17.0.4\AndroidManifest.xml:50:9-56:19
+101            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+101-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\5d16eb75cf7b340b899dd7106afa3eb2\firebase-iid-17.0.4\AndroidManifest.xml:51:13-77
+102            android:exported="true" >
+102-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\5d16eb75cf7b340b899dd7106afa3eb2\firebase-iid-17.0.4\AndroidManifest.xml:52:13-36
+103            <intent-filter android:priority="-500" >
+103-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\5d16eb75cf7b340b899dd7106afa3eb2\firebase-iid-17.0.4\AndroidManifest.xml:53:13-55:29
+103-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\5d16eb75cf7b340b899dd7106afa3eb2\firebase-iid-17.0.4\AndroidManifest.xml:53:28-51
+104                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+104-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\5d16eb75cf7b340b899dd7106afa3eb2\firebase-iid-17.0.4\AndroidManifest.xml:54:17-80
+104-->[com.google.firebase:firebase-iid:17.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\5d16eb75cf7b340b899dd7106afa3eb2\firebase-iid-17.0.4\AndroidManifest.xml:54:25-77
+105            </intent-filter>
+106        </service>
+107
+108        <provider
+108-->[com.google.firebase:firebase-common:16.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\ce79d92d8c4aea14dec37546f6c3fffc\firebase-common-16.0.4\AndroidManifest.xml:10:9-14:39
+109            android:name="com.google.firebase.provider.FirebaseInitProvider"
+109-->[com.google.firebase:firebase-common:16.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\ce79d92d8c4aea14dec37546f6c3fffc\firebase-common-16.0.4\AndroidManifest.xml:11:13-77
+110            android:authorities="tensor_programming.com.webview.firebaseinitprovider"
+110-->[com.google.firebase:firebase-common:16.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\ce79d92d8c4aea14dec37546f6c3fffc\firebase-common-16.0.4\AndroidManifest.xml:12:13-72
+111            android:exported="false"
+111-->[com.google.firebase:firebase-common:16.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\ce79d92d8c4aea14dec37546f6c3fffc\firebase-common-16.0.4\AndroidManifest.xml:13:13-37
+112            android:initOrder="100" />
+112-->[com.google.firebase:firebase-common:16.0.4] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\ce79d92d8c4aea14dec37546f6c3fffc\firebase-common-16.0.4\AndroidManifest.xml:14:13-36
+113
+114        <activity
+114-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\1d803f0ec609c2b695270659fa434ddf\play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+115            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+115-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\1d803f0ec609c2b695270659fa434ddf\play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+116            android:exported="false"
+116-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\1d803f0ec609c2b695270659fa434ddf\play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+117            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+117-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\1d803f0ec609c2b695270659fa434ddf\play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+118
+119        <meta-data
+119-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\1bcca02fe7f16fdc9e2a73da5ecc885b\play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+120            android:name="com.google.android.gms.version"
+120-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\1bcca02fe7f16fdc9e2a73da5ecc885b\play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+121            android:value="@integer/google_play_services_version" />
+121-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\1bcca02fe7f16fdc9e2a73da5ecc885b\play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+122        <meta-data
+122-->[com.android.support:support-v4:26.1.0] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\92d3f31c2e12a2b66fbde7ac0f5dd24c\support-v4-26.1.0\AndroidManifest.xml:26:9-28:38
+123            android:name="android.support.VERSION"
+123-->[com.android.support:support-v4:26.1.0] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\92d3f31c2e12a2b66fbde7ac0f5dd24c\support-v4-26.1.0\AndroidManifest.xml:27:13-51
+124            android:value="26.1.0" />
+124-->[com.android.support:support-v4:26.1.0] C:\Users\Roman Lyskov\.gradle\caches\transforms-2\files-2.1\92d3f31c2e12a2b66fbde7ac0f5dd24c\support-v4-26.1.0\AndroidManifest.xml:28:13-35
+125    </application>
+126
+127</manifest>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "740345614076",
+    "firebase_url": "https://storevip-master.firebaseio.com",
+    "project_id": "storevip-master",
+    "storage_bucket": "storevip-master.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740345614076:android:8507e72fc4eb5b267bd179",
+        "android_client_info": {
+          "package_name": "tensor_programming.com.webview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740345614076-poc5njtb23t8fs45mcvjpgioo6u4777v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tensor_programming.com.webview",
+            "certificate_hash": "1553793d4acada322d61a790beca41b8e5b21431"
+          }
+        },
+        {
+          "client_id": "740345614076-uhqjnflgk19stdrn4up85goqov9edrps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZbFcvAuHzYUzq_kr0_OmkP21ue5MF9OY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740345614076-uhqjnflgk19stdrn4up85goqov9edrps.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
